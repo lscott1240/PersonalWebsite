@@ -1,0 +1,92 @@
+body::before {
+    display: block;
+    content: '';
+    height: 30px;
+}
+
+.btn {
+    background-color: #6f42c1;
+    color: white;
+    border-color: #6f42c1;
+}
+
+.btn:hover {
+    color:#6f42c1;
+    background-color: white;
+    border-color: white;
+}
+
+.accordion {
+    --bs-accordion-active-bg: white;
+}
+
+.accordion-button {
+    box-shadow: none
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none;
+}
+
+.WW {
+    text-decoration: none;
+    color: black;
+    transition: 250ms ease-in;
+}
+
+.WW:hover {
+    color: #41C3C8;
+    transition: 250ms ease-in-out;
+}
+
+.S {
+    text-decoration: none;
+    color: black;
+    transition: 250ms ease-in;
+}
+
+.S:hover {
+    color: #C1331F;
+    transition: 250ms ease-in-out;
+}
+
+#accordion div {
+    overflow: auto;
+}
+
+.icons {
+    max-width: 200px;
+    height: auto;
+}
+
+.i {
+    transition: 250ms ease-in-out;
+}
+
+.i:hover {
+    color: white;
+    transition: 250ms ease-in-out;
+}
+
+.python {
+    background-color: #34D369;
+    color: white;
+    border-color: #34D369;
+}
+
+.python:hover {
+    color:#34D369;
+    background-color: white;
+    border-color: white;
+}
+
+#vanta-canvas {
+    padding: 10px;
+    height: 100vh;
+    width: 100vw;
+}
+
